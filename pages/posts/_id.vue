@@ -13,15 +13,11 @@
 export default {
   head() {
     return {
-      meta: [
-        {
-          hid: "og:description",
-          property: "og:description",
-          content: this.post.excerpt,
-        },
-        { hid: "og:url", property: "og:url", content: this.$route.path },
-        { hid: "og:image", property: "og:image", content: this.post.type },
-      ],
+       meta: {
+        title: this.post.title,
+        description: this.post.excerpt,
+        type: 'article',
+      },
     };
   },
   data: () => ({
