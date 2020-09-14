@@ -37,19 +37,6 @@ export default {
       { hid: 'description', name: 'description', content: setting.sub_title },
       { hid: 'keywords', name: 'keywords', content: setting.siteKeywords },
 
-      // ogp関連
-      { hid: 'og:site_name', property: 'og:site_name', content: setting.blog_name },
-      { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: setting.sitepath },
-      { hid: 'og:title', property: 'og:title', content: setting.blog_name },
-      { hid: 'og:description', property: 'og:description', content: setting.sub_title },
-      { hid: 'og:image', property: 'og:image', content: `./static/icon.png` },
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'apple-mobile-web-app-capable', content: 'yes' },
-      { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
-      // { name: 'twitter:site', content: '@Twitter' },
-      // { property: 'article:publisher', content: 'FacebookURL' },
-      // { property: 'fb:app_id', content: 'FacebookAppID' },
     ],
   },
   /*
