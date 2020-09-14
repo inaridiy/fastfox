@@ -13,11 +13,7 @@
 export default {
   head() {
     return {
-       meta: {
-        title: this.post.title,
-        description: this.post.excerpt,
-        type: 'article',
-      },
+      title: this.post.title,
     };
   },
   data: () => ({
