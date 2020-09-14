@@ -52,11 +52,6 @@ export default {
         link: "/admin",
       },
       {
-        name: "設定",
-        icon: "mdi-cogs",
-        link: "/admin/setting",
-      },
-      {
         name: "投稿",
         icon: "mdi-view-dashboard",
         link: "/admin/post",
