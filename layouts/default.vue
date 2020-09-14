@@ -9,6 +9,7 @@
       <v-spacer></v-spacer>
     </v-app-bar>
     <transition name="page">
+    
       <nuxt />
     </transition>
 

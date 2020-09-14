@@ -1,6 +1,7 @@
 <template><v-main>
   <v-container>
     <v-card>
+        <nuxt-link to="/">ホームに戻る</nuxt-link>
       <no-ssr>
         <vue-editor :editorOptions="editorSettings" id="editor" v-model="post.content" disabled></vue-editor>
       </no-ssr>
